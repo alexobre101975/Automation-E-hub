@@ -6,10 +6,10 @@ Suite Setup   Open app
 Suite Teardown    Close All Applications
 
 *** Test Cases ***
-Test TV_Entertainment
+Test TV_Entertainment E-hub
     [Tags]    Automation
 
-    Page Home E-hub
+    Open App
     #NGG TCC-44
     Enter the window TV
     # NGG TCC-45
