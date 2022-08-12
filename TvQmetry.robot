@@ -9,7 +9,6 @@ Suite Teardown    Close All Applications
 Test TV_Entertainment
     [Tags]    Automation
 
-    Open App
     Page Home E-hub
     #NGG TCC-44
     Enter the window TV

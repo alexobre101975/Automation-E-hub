@@ -21,10 +21,6 @@ Open App
   ...   activateName=${Activity_NAME}
   ...   packageName=${PACKAGE_NAME}
 
-
-Page Home E-hub
-     Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvGroupName
-     Element Should Be Visible       id=com.sentrics.engage360:id/tvGroupName        Entertainment
 #NG TCC-44
 Enter the window TV
     Press Keycode       22
