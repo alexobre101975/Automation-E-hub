@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20220830 17:48:35.539" rpa="false" schemaversion="2">
+=======
+<robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20220812 06:47:17.325" rpa="false" schemaversion="2">
+>>>>>>> parent of 5d59205 (First Repository)
 <suite id="s1" name="TvQmetry" source="C:\Users\Alejandro\Desktop\Entertainment_TV\TvQmetry.robot">
 <kw name="Open App" library="Keywords" type="SETUP">
 <kw name="Open Application" library="AppiumLibrary">
@@ -18,9 +22,15 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | *Option*            | *Man.* | *Description*     |
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |</doc>
+<<<<<<< HEAD
 <status status="PASS" starttime="20220830 17:48:35.695" endtime="20220830 17:48:51.174"/>
 </kw>
 <status status="PASS" starttime="20220830 17:48:35.695" endtime="20220830 17:48:51.175"/>
+=======
+<status status="PASS" starttime="20220812 06:47:17.533" endtime="20220812 06:47:38.869"/>
+</kw>
+<status status="PASS" starttime="20220812 06:47:17.533" endtime="20220812 06:47:38.869"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <test id="s1-t1" name="Test TV_Entertainment E-hub">
 <kw name="Open App" library="Keywords">
@@ -40,46 +50,79 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | *Option*            | *Man.* | *Description*     |
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |</doc>
+<<<<<<< HEAD
 <status status="PASS" starttime="20220830 17:48:51.176" endtime="20220830 17:49:04.190"/>
 </kw>
 <status status="PASS" starttime="20220830 17:48:51.175" endtime="20220830 17:49:04.191"/>
+=======
+<status status="PASS" starttime="20220812 06:47:38.871" endtime="20220812 06:47:55.535"/>
+</kw>
+<status status="PASS" starttime="20220812 06:47:38.870" endtime="20220812 06:47:55.536"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <kw name="Enter the window TV" library="Keywords">
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>22</arg>
 <doc>Sends a press of keycode to the device.</doc>
+<<<<<<< HEAD
 <status status="PASS" starttime="20220830 17:49:04.191" endtime="20220830 17:49:04.350"/>
+=======
+<status status="PASS" starttime="20220812 06:47:55.539" endtime="20220812 06:48:01.879"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvAppName</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
+<<<<<<< HEAD
 <status status="PASS" starttime="20220830 17:49:04.350" endtime="20220830 17:49:05.701"/>
+=======
+<status status="PASS" starttime="20220812 06:48:01.879" endtime="20220812 06:48:08.849"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <kw name="Page Should Contain Text" library="AppiumLibrary">
 <arg>TV</arg>
 <doc>Verifies that current page contains `text`.</doc>
+<<<<<<< HEAD
 <msg timestamp="20220830 17:49:05.943" level="INFO">Current page contains text 'TV'.</msg>
 <status status="PASS" starttime="20220830 17:49:05.701" endtime="20220830 17:49:05.943"/>
+=======
+<msg timestamp="20220812 06:48:09.093" level="INFO">Current page contains text 'TV'.</msg>
+<status status="PASS" starttime="20220812 06:48:08.849" endtime="20220812 06:48:09.093"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>23</arg>
 <doc>Sends a press of keycode to the device.</doc>
+<<<<<<< HEAD
 <status status="PASS" starttime="20220830 17:49:05.943" endtime="20220830 17:49:07.522"/>
+=======
+<status status="PASS" starttime="20220812 06:48:09.094" endtime="20220812 06:48:09.287"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/ivAppIcon</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
+<<<<<<< HEAD
 <status status="PASS" starttime="20220830 17:49:07.522" endtime="20220830 17:49:08.187"/>
+=======
+<status status="PASS" starttime="20220812 06:48:09.287" endtime="20220812 06:48:10.090"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <kw name="Page Should Contain Text" library="AppiumLibrary">
 <arg>Icon</arg>
 <doc>Verifies that current page contains `text`.</doc>
+<<<<<<< HEAD
 <msg timestamp="20220830 17:49:08.305" level="INFO">Current page contains text 'Icon'.</msg>
 <status status="PASS" starttime="20220830 17:49:08.188" endtime="20220830 17:49:08.305"/>
+=======
+<msg timestamp="20220812 06:48:10.259" level="INFO">Current page contains text 'Icon'.</msg>
+<status status="PASS" starttime="20220812 06:48:10.090" endtime="20220812 06:48:10.260"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
+<<<<<<< HEAD
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
 <msg timestamp="20220830 17:49:50.429" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-1.png"&gt;&lt;img src="appium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
@@ -88,21 +131,34 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <msg timestamp="20220830 17:49:50.462" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Timed out after 10000 milliseconds waiting for root AccessibilityNodeInfo
 </msg>
 <status status="FAIL" starttime="20220830 17:49:08.305" endtime="20220830 17:49:50.462"/>
+=======
+<status status="PASS" starttime="20220812 06:48:10.261" endtime="20220812 06:48:14.281"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <kw name="Element Should Contain Text" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
 <arg>2</arg>
 <doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<<<<<<< HEAD
 <status status="NOT RUN" starttime="20220830 17:49:50.463" endtime="20220830 17:49:50.463"/>
+=======
+<msg timestamp="20220812 06:48:14.284" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:48:14.281" endtime="20220812 06:48:14.428"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>4</arg>
 <doc>Sends a press of keycode to the device.</doc>
+<<<<<<< HEAD
 <status status="NOT RUN" starttime="20220830 17:49:50.463" endtime="20220830 17:49:50.463"/>
+=======
+<status status="PASS" starttime="20220812 06:48:14.429" endtime="20220812 06:48:14.499"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>4</arg>
 <doc>Sends a press of keycode to the device.</doc>
+<<<<<<< HEAD
 <status status="NOT RUN" starttime="20220830 17:49:50.463" endtime="20220830 17:49:50.463"/>
 </kw>
 <status status="FAIL" starttime="20220830 17:49:04.191" endtime="20220830 17:49:50.463"/>
@@ -128,6 +184,804 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <status status="PASS" starttime="20220830 17:49:50.466" endtime="20220830 17:49:50.681"/>
 </kw>
 <status status="FAIL" starttime="20220830 17:48:35.540" endtime="20220830 17:49:50.681"/>
+=======
+<status status="PASS" starttime="20220812 06:48:14.499" endtime="20220812 06:48:14.646"/>
+</kw>
+<status status="PASS" starttime="20220812 06:47:55.537" endtime="20220812 06:48:14.646"/>
+</kw>
+<kw name="Start TV - Second time - Tile" library="Keywords">
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/ivAppIcon</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:48:14.647" endtime="20220812 06:48:30.566"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:48:30.567" endtime="20220812 06:48:38.191"/>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<arg>TV</arg>
+<doc>Verifies that current page contains `text`.</doc>
+<msg timestamp="20220812 06:48:39.036" level="INFO">Current page contains text 'TV'.</msg>
+<status status="PASS" starttime="20220812 06:48:38.191" endtime="20220812 06:48:39.036"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:48:39.036" endtime="20220812 06:48:39.211"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/clMain</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:48:39.212" endtime="20220812 06:48:39.907"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:48:39.908" endtime="20220812 06:48:44.166"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>2</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:48:44.174" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:48:44.168" endtime="20220812 06:48:44.270"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>12</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:48:44.271" endtime="20220812 06:48:44.340"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:48:44.340" endtime="20220812 06:48:49.003"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>5</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:48:49.004" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '5'.</msg>
+<status status="PASS" starttime="20220812 06:48:49.003" endtime="20220812 06:48:49.102"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:48:49.102" endtime="20220812 06:48:49.176"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:48:49.177" endtime="20220812 06:48:49.305"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/ivAppIcon</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:48:49.306" endtime="20220812 06:49:01.910"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:49:01.910" endtime="20220812 06:49:08.855"/>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<arg>TV</arg>
+<doc>Verifies that current page contains `text`.</doc>
+<msg timestamp="20220812 06:49:09.120" level="INFO">Current page contains text 'TV'.</msg>
+<status status="PASS" starttime="20220812 06:49:08.855" endtime="20220812 06:49:09.120"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:09.120" endtime="20220812 06:49:09.341"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:49:09.341" endtime="20220812 06:49:14.296"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>5</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:49:14.305" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '5'.</msg>
+<status status="PASS" starttime="20220812 06:49:14.297" endtime="20220812 06:49:14.417"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>9</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:14.417" endtime="20220812 06:49:14.462"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:49:14.462" endtime="20220812 06:49:19.222"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>2</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:49:19.225" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:49:19.223" endtime="20220812 06:49:19.345"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:19.345" endtime="20220812 06:49:19.457"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:19.457" endtime="20220812 06:49:19.616"/>
+</kw>
+<status status="PASS" starttime="20220812 06:48:14.647" endtime="20220812 06:49:19.618"/>
+</kw>
+<kw name="Enter TV - Channel Navigation - Channel Up" library="Keywords">
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/ivAppIcon</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:49:19.620" endtime="20220812 06:49:31.981"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:49:31.981" endtime="20220812 06:49:38.992"/>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<arg>TV</arg>
+<doc>Verifies that current page contains `text`.</doc>
+<msg timestamp="20220812 06:49:39.229" level="INFO">Current page contains text 'TV'.</msg>
+<status status="PASS" starttime="20220812 06:49:38.992" endtime="20220812 06:49:39.229"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:39.230" endtime="20220812 06:49:39.436"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/clMain</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:49:39.436" endtime="20220812 06:49:40.085"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:49:40.087" endtime="20220812 06:49:44.408"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>2</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:49:44.412" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:49:44.409" endtime="20220812 06:49:44.526"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>92</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:44.526" endtime="20220812 06:49:44.680"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:49:44.680" endtime="20220812 06:49:46.109"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>3</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:49:46.110" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '3'.</msg>
+<status status="PASS" starttime="20220812 06:49:46.109" endtime="20220812 06:49:46.181"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>8</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:46.181" endtime="20220812 06:49:46.220"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>8</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:46.221" endtime="20220812 06:49:46.858"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>10</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:46.858" endtime="20220812 06:49:47.393"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:49:47.393" endtime="20220812 06:49:51.402"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>113</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:49:51.404" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '113'.</msg>
+<status status="PASS" starttime="20220812 06:49:51.403" endtime="20220812 06:49:51.598"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>92</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:51.598" endtime="20220812 06:49:51.647"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:49:51.647" endtime="20220812 06:49:53.085"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>2</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:49:53.087" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:49:53.086" endtime="20220812 06:49:53.275"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>92</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:53.275" endtime="20220812 06:49:53.375"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>92</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:53.376" endtime="20220812 06:49:54.818"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>92</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:54.818" endtime="20220812 06:49:56.380"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>92</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:56.380" endtime="20220812 06:49:57.726"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>92</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:57.728" endtime="20220812 06:49:59.072"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>9</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:49:59.072" endtime="20220812 06:50:00.184"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/pauseLayout</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:00.184" endtime="20220812 06:50:00.997"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/clSubtitles</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:00.999" endtime="20220812 06:50:01.214"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/llNotifications</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:01.215" endtime="20220812 06:50:01.495"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:01.496" endtime="20220812 06:50:05.618"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>2</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:05.621" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:50:05.618" endtime="20220812 06:50:05.831"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:05.831" endtime="20220812 06:50:05.995"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:05.995" endtime="20220812 06:50:06.184"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:06.185" endtime="20220812 06:50:09.002"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<arg>TV</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:09.004" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvAppName' contains text 'TV'.</msg>
+<status status="PASS" starttime="20220812 06:50:09.002" endtime="20220812 06:50:09.136"/>
+</kw>
+<status status="PASS" starttime="20220812 06:49:19.619" endtime="20220812 06:50:09.136"/>
+</kw>
+<kw name="Enter TV - Channel Navigation - Channel Down" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:09.137" endtime="20220812 06:50:09.377"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/ivAppIcon</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:09.377" endtime="20220812 06:50:10.144"/>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<arg>Icon</arg>
+<doc>Verifies that current page contains `text`.</doc>
+<msg timestamp="20220812 06:50:10.321" level="INFO">Current page contains text 'Icon'.</msg>
+<status status="PASS" starttime="20220812 06:50:10.145" endtime="20220812 06:50:10.321"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:10.322" endtime="20220812 06:50:10.566"/>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<arg>TV</arg>
+<doc>Verifies that current page contains `text`.</doc>
+<msg timestamp="20220812 06:50:10.698" level="INFO">Current page contains text 'TV'.</msg>
+<status status="PASS" starttime="20220812 06:50:10.567" endtime="20220812 06:50:10.698"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:10.699" endtime="20220812 06:50:14.371"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>2</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:14.381" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:50:14.372" endtime="20220812 06:50:14.514"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>93</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:14.514" endtime="20220812 06:50:14.611"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:14.612" endtime="20220812 06:50:16.232"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>113</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:16.233" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '113'.</msg>
+<status status="PASS" starttime="20220812 06:50:16.232" endtime="20220812 06:50:16.313"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>93</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:16.313" endtime="20220812 06:50:16.355"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:16.355" endtime="20220812 06:50:17.653"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>112</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:17.654" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '112'.</msg>
+<status status="PASS" starttime="20220812 06:50:17.653" endtime="20220812 06:50:17.743"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>92</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:17.743" endtime="20220812 06:50:17.784"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>92</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:17.784" endtime="20220812 06:50:19.069"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>92</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:19.069" endtime="20220812 06:50:20.326"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:20.326" endtime="20220812 06:50:21.800"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>3</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:21.804" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '3'.</msg>
+<status status="PASS" starttime="20220812 06:50:21.800" endtime="20220812 06:50:22.015"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>93</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:22.016" endtime="20220812 06:50:22.070"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:22.070" endtime="20220812 06:50:23.611"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>2</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:23.613" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:50:23.611" endtime="20220812 06:50:23.793"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>93</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:23.793" endtime="20220812 06:50:23.862"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:23.862" endtime="20220812 06:50:25.403"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>113</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:25.405" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '113'.</msg>
+<status status="PASS" starttime="20220812 06:50:25.403" endtime="20220812 06:50:25.579"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>93</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:25.580" endtime="20220812 06:50:25.687"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:25.687" endtime="20220812 06:50:27.119"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>112</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:27.121" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '112'.</msg>
+<status status="PASS" starttime="20220812 06:50:27.119" endtime="20220812 06:50:27.327"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>93</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:27.327" endtime="20220812 06:50:27.377"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:27.377" endtime="20220812 06:50:28.891"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>111</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:28.892" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '111'.</msg>
+<status status="PASS" starttime="20220812 06:50:28.891" endtime="20220812 06:50:29.058"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>93</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:29.059" endtime="20220812 06:50:29.204"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:29.204" endtime="20220812 06:50:30.527"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>110</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:30.531" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '110'.</msg>
+<status status="PASS" starttime="20220812 06:50:30.528" endtime="20220812 06:50:30.708"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>93</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:30.709" endtime="20220812 06:50:30.789"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:30.790" endtime="20220812 06:50:32.321"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>109</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:32.323" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '109'.</msg>
+<status status="PASS" starttime="20220812 06:50:32.322" endtime="20220812 06:50:32.495"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>9</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:32.495" endtime="20220812 06:50:32.545"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/clSubtitles</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:32.545" endtime="20220812 06:50:33.215"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/llNotifications</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:33.215" endtime="20220812 06:50:33.404"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:33.404" endtime="20220812 06:50:37.766"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>2</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:37.768" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:50:37.767" endtime="20220812 06:50:37.941"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:37.941" endtime="20220812 06:50:38.048"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:38.048" endtime="20220812 06:50:38.229"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:38.229" endtime="20220812 06:50:41.499"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<arg>TV</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:41.502" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvAppName' contains text 'TV'.</msg>
+<status status="PASS" starttime="20220812 06:50:41.499" endtime="20220812 06:50:41.631"/>
+</kw>
+<status status="PASS" starttime="20220812 06:50:09.137" endtime="20220812 06:50:41.631"/>
+</kw>
+<kw name="Enter TV - Channel Navigation - Manual number entry" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:41.632" endtime="20220812 06:50:41.826"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/ivAppIcon</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:41.826" endtime="20220812 06:50:42.500"/>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<arg>Icon</arg>
+<doc>Verifies that current page contains `text`.</doc>
+<msg timestamp="20220812 06:50:42.636" level="INFO">Current page contains text 'Icon'.</msg>
+<status status="PASS" starttime="20220812 06:50:42.501" endtime="20220812 06:50:42.636"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:42.637" endtime="20220812 06:50:42.833"/>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<arg>TV</arg>
+<doc>Verifies that current page contains `text`.</doc>
+<msg timestamp="20220812 06:50:43.010" level="INFO">Current page contains text 'TV'.</msg>
+<status status="PASS" starttime="20220812 06:50:42.835" endtime="20220812 06:50:43.011"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:43.011" endtime="20220812 06:50:47.141"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>2</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:47.142" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:50:47.141" endtime="20220812 06:50:47.238"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>10</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:47.239" endtime="20220812 06:50:47.301"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:47.301" endtime="20220812 06:50:51.896"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>3</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:51.897" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '3'.</msg>
+<status status="PASS" starttime="20220812 06:50:51.896" endtime="20220812 06:50:52.046"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>12</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:52.046" endtime="20220812 06:50:52.076"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:52.076" endtime="20220812 06:50:56.963"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>5</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:56.964" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '5'.</msg>
+<status status="PASS" starttime="20220812 06:50:56.963" endtime="20220812 06:50:57.144"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>9</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:57.144" endtime="20220812 06:50:57.212"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>12</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:57.212" endtime="20220812 06:50:57.303"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:57.303" endtime="20220812 06:50:58.772"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>25</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:50:58.773" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '25'.</msg>
+<status status="PASS" starttime="20220812 06:50:58.772" endtime="20220812 06:50:58.922"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>8</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:58.922" endtime="20220812 06:50:58.972"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>9</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:50:58.972" endtime="20220812 06:50:59.042"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:50:59.042" endtime="20220812 06:51:00.455"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>12</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:51:00.457" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '12'.</msg>
+<status status="PASS" starttime="20220812 06:51:00.455" endtime="20220812 06:51:00.582"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>12</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:51:00.582" endtime="20220812 06:51:00.611"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/pauseLayout</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:00.611" endtime="20220812 06:51:01.330"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/clSubtitles</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:01.331" endtime="20220812 06:51:01.574"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/llNotifications</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:01.574" endtime="20220812 06:51:01.829"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:01.829" endtime="20220812 06:51:05.926"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>5</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:51:05.928" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '5'.</msg>
+<status status="PASS" starttime="20220812 06:51:05.926" endtime="20220812 06:51:06.080"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>7</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:51:06.081" endtime="20220812 06:51:06.120"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/pauseLayout</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:06.120" endtime="20220812 06:51:07.418"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/clSubtitles</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:07.418" endtime="20220812 06:51:07.568"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/llNotifications</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:07.568" endtime="20220812 06:51:07.676"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:07.677" endtime="20220812 06:51:07.884"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>5</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:51:07.894" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '5'.</msg>
+<status status="PASS" starttime="20220812 06:51:07.886" endtime="20220812 06:51:08.104"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>9</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:51:08.105" endtime="20220812 06:51:08.193"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/clSubtitles</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:08.193" endtime="20220812 06:51:08.876"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/llNotifications</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:08.876" endtime="20220812 06:51:09.077"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20220812 06:51:09.077" endtime="20220812 06:51:12.808"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvChannelNumber</arg>
+<arg>2</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220812 06:51:12.810" level="INFO">Verifying element 'id=com.sentrics.engage360:id/tvChannelNumber' contains text '2'.</msg>
+<status status="PASS" starttime="20220812 06:51:12.809" endtime="20220812 06:51:13.013"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:51:13.013" endtime="20220812 06:51:13.086"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20220812 06:51:13.086" endtime="20220812 06:51:13.241"/>
+</kw>
+<status status="PASS" starttime="20220812 06:50:41.631" endtime="20220812 06:51:13.242"/>
+</kw>
+<tag>Automation</tag>
+<status status="PASS" starttime="20220812 06:47:38.870" endtime="20220812 06:51:13.242"/>
+</test>
+<kw name="Close All Applications" library="AppiumLibrary" type="TEARDOWN">
+<doc>Closes all open applications.</doc>
+<status status="PASS" starttime="20220812 06:51:13.244" endtime="20220812 06:51:13.514"/>
+</kw>
+<status status="PASS" starttime="20220812 06:47:17.326" endtime="20220812 06:51:13.514"/>
+>>>>>>> parent of 5d59205 (First Repository)
 </suite>
 <statistics>
 <total>
